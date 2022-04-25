@@ -1,0 +1,451 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lobster', cursive;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.container{
+    margin: auto;
+    width: 70%;
+}
+.header{
+    background: #1D1D1D;
+    height: 75px;
+    position: stricky;
+    overflow: hidden;
+}
+.nav{
+    margin-left: 344px
+}
+ul{
+    margin: 0;
+    padding: 10px;
+    font-size: 21px;
+    font-weight: 800px;
+    overflow: hidden;
+}
+ul li{
+    float: left;
+    list-style-type: none;
+    
+    
+}
+ul li a{
+
+    text-decoration: none;
+    color: #FF8201;
+    padding: 12px 16px;
+    display: inline-block;
+}
+ul li a:active{
+    background-color: #416695;
+}
+ul li a:hover{
+    background-color: #416695;
+}
+.logo{
+    color: aqua;
+    display: inline-block;
+    float: left;
+    overflow: hidden;
+}
+
+.bg{
+    background: url("image/School.png");
+    height: 700px;
+    width: 100%;
+    overflow: hidden;
+}
+.msg{
+    font-family: cursive;
+    font-size: 90px;
+   margin-left: 400px;
+
+
+}
+p welcome{
+   
+     color: #272727;
+     overflow: hidden;
+}
+.box-see{
+    
+    height: 50px;
+    width: 150px;
+    background: #272727;
+    color: white;
+    border: 1px solid;
+    border-radius: 8px;
+    margin-left: 550px;
+    text-align: center;
+   padding-top: 15px;
+   font-size: 20px;
+
+}
+.box-see:hover{
+    background: #668CB6;
+    cursor: pointer;
+
+}
+.box{
+    height: 350px;
+    background: #FFFFFF;
+   
+    box-shadow: 0px 0px 10px #888888;
+}
+.class
+{
+     height: 50px;
+    width: 150px;
+    background: #272727;
+    color: white;
+    border: 1px solid;
+    border-radius: 8px;
+    margin-left: 550px;
+    text-align: center;
+   padding-top: 15px;
+   font-size: 20px;
+}
+.dropdown-content{
+    background: #f9f9f9f9;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3);
+    display: none;
+    position: absolute;
+    min-width: 130px;
+}
+.dropdown-content a{
+    display: block;
+}
+.dropdown-content a:hover{
+    background: #1D1D1D;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+#Courses{
+    min-width: 200px;
+}
+#Members{
+    min-width: 100px;
+}
+
+/*Class Area Start */
+
+.left-area-c{
+    float: left
+}
+.right-area-c{
+   
+    float: left;
+    height: 300px;
+    width: 45%
+    margin-left: 50px;   
+    
+}
+.right-area-c{
+    height: 280px;
+    width: 500px;
+   
+    box-shadow: 0px 0px 10px 20px #f1f1f1;
+    padding: 10px;
+    margin: 20px 20px 20px 200px; 
+    background-image: url("image/classroom.jpg");
+    background-size: cover;
+    overflow: hidden;
+}
+.box-class{
+    
+    height: 50px;
+    width: 150px;
+    background: #272727;
+    color: white;
+    border: 1px solid;
+    border-radius: 8px;
+    margin-left: 347px;
+    margin-top: 5px;
+    text-align: center;
+   padding-top: 15px;
+   font-size: 20px;
+   overflow: hidden;
+
+}
+.box-class:hover{
+    background: #1197F5;
+    cursor: pointer;
+}
+#Classroom
+{
+    display: inline-block;
+    overflow: hidden;
+}
+.box-content{
+    font-family: 'Indie Flower', cursive;
+    margin-left: 70px;
+    margin-top: 140px;
+    font-size: 25px;
+    font-weight: bold;
+   
+}
+
+/*Class area End */
+
+/* Exam Corner Start */
+
+.left-area-exam{
+    float: left;
+}
+.left-area-exam{
+    height: 280px;
+    width: 500px;
+    box-shadow: 0px 0px 10px 20px #f1f1f1;
+    padding: 10px;
+    background-image: url("image/online-exam.jpg");
+    margin-top: 20px;
+    margin-left: 160px;
+    margin-bottom: 20px;
+    background-size: cover;
+    overflow: hidden;
+}
+.right-area-exam{
+    float: left;
+}
+.box-exam{
+     height: 50px;
+    width: 150px;
+    background: #272727;
+    color: white;
+    border: 1px solid;
+    border-radius: 8px;
+    margin-left: 300px;
+    margin-top: 5px;
+    text-align: center;
+   padding-top: 15px;
+   font-size: 20px;
+   overflow: hidden;
+}
+.box-exam:hover{
+     background: #1197F5;
+    cursor: pointer;
+}
+.exam-box-content{
+     font-family: 'Indie Flower', cursive;
+    margin-left: 200px;
+    margin-top: 140px;
+    font-size: 25px;
+    font-weight: bold;
+}
+#exam
+{
+    display: inline-block;
+    overflow: hidden;
+}
+
+/*Exam Corner End */
+
+
+
+/* Game Zone start */
+
+
+.left-area-game{
+    float: left
+}
+.right-area-game{
+   
+    height: 300px;
+    width: 45%
+    margin-left: 50px;
+    float: left; 
+    
+}
+.right-area-game{
+    height: 280px;
+    width: 500px;
+   
+    box-shadow: 0px 0px 10px 20px #f1f1f1;
+    padding: 10px;
+    margin: 20px 20px 20px 200px; 
+    background-image: url("image/game.jpg");
+    background-size: cover;
+    overflow: hidden;
+    float: left;
+
+}
+.box-game{
+    
+    height: 50px;
+    width: 150px;
+    background: #272727;
+    color: white;
+    border: 1px solid;
+    border-radius: 8px;
+    margin-left: 347px;
+    margin-top: 5px;
+    text-align: center;
+   padding-top: 15px;
+   font-size: 20px;
+   overflow: hidden;
+}
+.box-game:hover{
+     background: #1197F5;
+    cursor: pointer;
+}
+#game
+{
+    display: inline-block;
+    overflow: hidden;
+}
+.game-box-content{
+    font-family: 'Indie Flower', cursive;
+    margin-left: 80px;
+    margin-top: 140px;
+    font-size: 25px;
+    font-weight: bold;
+   
+}
+
+
+
+/*Game Zone End */
+
+
+/* Library Corner Start */
+
+.left-area-library{
+    float: left;
+}
+.left-area-library{
+    height: 280px;
+    width: 500px;
+    box-shadow: 0px 0px 10px 20px #f1f1f1;
+    padding: 10px;
+    background-image: url("image/library.jpg");
+    margin-top: 20px;
+    margin-left: 160px;
+    margin-bottom: 20px;
+    background-size: cover;
+    overflow: hidden;
+}
+.right-area-library{
+    float: left;
+}
+.box-library{
+     height: 50px;
+    width: 150px;
+    background: #272727;
+    color: white;
+    border: 1px solid;
+    border-radius: 8px;
+    margin-left: 300px;
+    margin-top: 5px;
+    text-align: center;
+   padding-top: 15px;
+   font-size: 20px;
+   overflow: hidden;
+}
+.box-library:hover{
+     background: #1197F5;
+    cursor: pointer;
+}
+.library-box-content{
+     font-family: 'Indie Flower', cursive;
+    margin-left: 200px;
+    margin-top: 140px;
+    font-size: 25px;
+    font-weight: bold;
+}
+#library
+{
+    display: inline-block;
+    overflow: hidden;
+}
+
+/*Library corner End */
+
+
+
+
+/*Footer Start */
+
+.footer{
+    background-color:  #1D1D1D;
+    height: 400px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.footer-content{
+    font-family: 'Sniglet', cursive;
+    font-size: 30px;
+    margin-top: 90px;
+    color: #FF8201;
+}
+.morshed{
+    height: 150px;
+    width: 150px;
+    border: 1px solid;
+    border-radius: 100%;
+    background-image: url("image/morshed.jpg");
+    background-size: cover;
+    overflow: hidden;
+    padding: 10px;
+    margin-bottom: 50px;
+    float: left;
+
+}
+.ashraful{
+    height: 150px;
+    width: 150px;
+    border: 1px solid;
+    border-radius: 100%;
+    background-image: url("image/ashraful.jpg");
+    background-size: cover;
+    overflow: hidden;
+    padding: 10px;
+    margin-bottom: 50px;
+    margin-left: 30px;
+    float: left;
+
+}
+
+.footer-left{
+    float: left;
+}
+.footer-right{
+    height: 250px;
+    width: 250px;
+    border: 2px solid;
+    border-radius: 10px;
+    background-color: #1D1D1D;
+    float: left;
+    margin-left: 300px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    color: white;
+
+}
+.about-box{
+    height: 50px;
+    width: 150px;
+    background: #1D1D1D;
+    color: white;
+    border: 1px solid;
+    border-radius: 20px;
+    margin-left: 50px;
+    margin-top: 5px;
+    text-align: center;
+   padding-top: 15px;
+   font-size: 30px;
+   overflow: hidden;
+   font-family: 'Sniglet', cursive;
+
+}
+.Address{
+    margin: 15px;
+}
+
+
+/*Footer End */
